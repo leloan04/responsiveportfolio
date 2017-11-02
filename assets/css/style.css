@@ -1,0 +1,252 @@
+.header {
+    height: 66px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #B0D9FF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    background: #FFABBB;
+    color: white;
+    border-bottom: 1px solid #B0D9FF;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    float:left;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+h2 {
+    background: white;
+    color: #FFABBB;
+    border-bottom: 1px solid #B0D9FF;
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    background: white;
+    color: #FFABBB;
+    border-bottom: 1px solid #B0D9FF;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.doublespace {
+    line-height: 30px;
+}
+
+#imagesmain{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#imagesmain img {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+#portimages img{
+    height: 200px;
+    width: 250px;
+    padding: 35px;
+}
+
+.container {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nighttext {
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #FFABBB;
+    width: 230px;
+    padding: 10px;
+}
+
+.nighttext:hover {
+    background-color: #B0D9FF;
+    cursor: pointer;
+}
+
+.foodtext {
+    position: absolute;
+    top: 200px;
+    left: 484px;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #FFABBB;
+    width: 230px;
+    padding: 10px;
+}
+
+.foodtext:hover {
+    background-color: #B0D9FF;
+    cursor: pointer;
+}
+
+.adventuretext {
+    position: absolute;
+    top: 475px;
+    left: 160px;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #FFABBB;
+    width: 230px;
+    padding: 10px;
+}
+
+.adventuretext:hover {
+    background-color: #B0D9FF;
+    cursor: pointer;
+}
+
+.traveltext {
+    position: absolute;
+    top: 475px;
+    left: 484px;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #FFABBB;
+    width: 230px;
+    padding: 10px;
+}
+
+.traveltext:hover {
+    background-color: #B0D9FF;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 200px;
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+}
+
+li a{
+    text-decoration: none;
+    color: #B0D9FF;
+    float: left;
+    padding: 10px;
+    font-family: arial;
+    font-size: 15px;
+    border-right: 1px solid rgb(218, 218, 218);
+}
+
+li a:hover {
+    background-color: #FFABBB;
+}
+
+.maincontent {
+    background: #ffffff;
+    width: 650px;
+    margin-top: 20px;
+    padding: 20px;
+    float: left;
+    margin-left: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    width: 200px;
+    min-height: 100px;
+    background-color: white;
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #B0D9FF;
+    
+}
+
+input [type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #B0D9FF;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    font-family: arial;
+    font-size: 14px;
+    height: 40px;
+}
+
+input, [type=submit] {
+    background-color: #FFABBB;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+input, [type=submit]:hover {
+    background-color: #B0D9FF;
+
+}
+
+
+.footer {
+    clear: both;
+    background: #B0D9FF;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border-top: 10px solid #FFABBB;
+}
+
+@media screen and (max-width: 980px) {
+    .body {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        position: static;
+    }
+}
